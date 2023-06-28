@@ -26,14 +26,14 @@ let generateRandomNumber = () => {
     "Q",
     "K"
   ];
-  let indexNumbers = Math.floor * (Math.random() * numbers.lenght);
+  let indexNumbers = Math.floor(Math.random() * numbers.length);
 
   return numbers[indexNumbers];
 };
 
 let generateRandomSuit = () => {
   let suit = ["spade", "diamond", "heart", "club"];
-  let indexSuit = Math.floor(Math.random() * suit.lenght);
+  let indexSuit = Math.floor(Math.random() * suit.length);
 
   return suit[indexSuit];
 };
